@@ -1,2 +1,2 @@
-# fiti_barber
-barber and salon web app
+# Qull Journal
+Journal web app
