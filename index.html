@@ -3,130 +3,167 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- 
-    - primary meta tags
-  -->
-    <title>Fiti's Quill</title>
-    <meta name="title" content="Quill" />
+    <!--- primary meta tags -->
+    <meta name="description" content="Fiti's Quill - Journal App" />
     <meta
       name="description"
       content="This is a Quill html template made by prolificoder17"
     />
-    <!-- 
-    - favicon
-  -->
-    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
-
-    <!-- 
-    - custom css link
-  -->
-    <link rel="stylesheet" href="./assets/css/style.css" />
-
-    <!-- 
-    - google font link
-  -->
+    <!--- custom css link -->
+    <link rel="stylesheet" href="asserts/css/style.css" />
+    <title>Fiti's Quill</title>
+    <!--- favicon -->
+    <link rel="shortcut icon" href="#" type="image/svg+xml" />
+    <!--- google font link -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Rubik:wght@300,400;700&display=swap"
       rel="stylesheet"
     />
-
-    <!-- 
-    - flaticon
-  -->
-    <link rel="stylesheet" href="assets/css/flaticon.min.css" />
-
-    <!-- 
-    - preload images
-  -->
-    <link rel="preload" as="image" href="./assets/images/hero-banner.jpg" />
   </head>
   <body>
-<!-- NAVIGATION SECTION -->
+    <!-- NAVIGATION SECTION -->
     <header>
-    <nav>
-      <a href="index.html"><img src="asserts/svg/journal.svg" alt="journal logo" width="50px"></a>
-      
+      <nav>
+        <a href="index.html"
+          ><img src="asserts/svg/journal.svg" alt="journal logo" width="50px"
+        /></a>
+
+        <ul>
+          <li><a href="login.html">Login</a></li>
+          <li><a href="register.html">Register</a></li>
+          <li><a href="create-journal.html">Create Journal</a></li>
+        </ul>
+      </nav>
+
+      <!-- HERO SECTION -->
+      <section>
+        <h1>
+          <span>Mindful living</span> for the <br />
+          digital world 📱
+        </h1>
+
+        <p>
+          The ultimate bullet journal app to document, reflect, and embrace your
+          thoughts and expriences
+        </p>
+
+        <ul>
+          <li><a href="register.html">Get started</a></li>
+          <li><a href="#features">Learn more</a></li>
+        </ul>
+      </section>
+    </header>
+
+    <!-- FEATURES SECTION -->
+    <main>
+      <section>
+        <h2 id="features">
+          Finally, a <span> simple and easy </span> to use journal app
+        </h2>
+
+        <div>
+          <h3>Write all your journal in a few clicks</h3>
+          <p>
+            Unlock the simplicity of online journaling - say goodbye to the
+            hassle of traditional journaling and hello to a streamlined
+            expriences. With our intiutive app, you can easily document your
+            thoughts and feelings in just a few clicks.
+          </p>
+          <img
+            src="asserts/img/features_1.png"
+            alt="simple online journaling"
+            width="300px"
+          />
+        </div>
+
+        <div>
+          <h3>Beautifully displayed and neatly organised</h3>
+          <p>
+            Not just wores on a screen - our journals are beautifully displayed.
+          </p>
+          <img
+            src="asserts/img/feature_2.png"
+            alt="beautifully displayed journals"
+            width="300px"
+          />
+        </div>
+
+        <div>
+          <h3>Create and reflect from anywhere in the world</h3>
+          <p>
+            Whether you're at home or exploring the far corners of the world
+          </p>
+          <img
+            src="asserts/img/feature_3.png"
+            alt="create journals anywhere"
+            width="300px"
+          />
+        </div>
+      </section>
+
+      <!-- CTA Section -->
+      <section>
+        <h2>Get started now</h2>
+        <a href="register.html">Get started</a>
+      </section>
+    </main>
+
+    <!-- FOOTER SECTION -->
+    <footer>
+      <a href="index.html"
+        ><img src="asserts/svg/journal.svg" alt="journal logo" width="50px"
+      /></a>
       <ul>
+        <li>
+          <a href="https://www.instagram.com"
+            ><img
+              src="asserts/svg/logo-instagram.svg"
+              alt="Instagram logo"
+              width="20px"
+          /></a>
+        </li>
+        <li>
+          <a href="http://www.facebook.com"
+            ><img
+              src="asserts/svg/logo-facebook.svg"
+              alt="Facebook logo"
+              width="20px"
+          /></a>
+        </li>
+        <li>
+          <a href="https://www.twitter.com"
+            ><img src="asserts/svg/logo-twitter.svg" alt="X logo" width="20px"
+          /></a>
+        </li>
+        <li>
+          <a href="https://www.linkedIn.com"
+            ><img
+              src="asserts/svg/logo-linkedin.svg"
+              alt="LinkedIn logo"
+              width="20px"
+          /></a>
+        </li>
+        <li>
+          <a href="https://www.youtube.com"
+            ><img
+              src="asserts/svg/logo-youtube.svg"
+              alt="Youtube logo"
+              width="20px"
+          /></a>
+        </li>
+      </ul>
+
+      <p>Follow us on social media</p>
+      <ul>
+        <li><a href="index.html">Home</a></li>
         <li><a href="login.html">Login</a></li>
         <li><a href="register.html">Register</a></li>
-        <li><a href="create-journal.html">Create Journal</a></li>
       </ul>
-    </nav>
 
-  <!-- HERO SECTION -->
-    <section>
-      <h1><span>Mindful living</span> for the <br> digital world 📱</h1>
-
-      <p>
-        The ultimate bullet journal app to document, reflect, and embrace your
-        thoughts and expriences
-      </p>
-
-      <ul>
-        <li><a href="register.html">Get Started</a></li>
-        <li><a href="#features">Learn More</a></li>
-      </ul>
-    </section>
-  </header>
-    
-<!-- FEATURES SECTION -->
-<main>
-  <section>
-    <h2 id="features">Finally, a<span>simple and easy</span>to use journal app</h2>
-
-<div>
-    <h3>Write all your journal in a few clicks</h3>
-    <p>
-    Unlock the simplicity of online journaling - say goodbye to the hassle of
-    traditional journaling and hello to a streamlined expriences. With our
-    intiutive app, you can easily document your thoughts and feelings in just
-    a few clicks.
-    </p>
-    <img src="asserts/img/features_1.png" alt="simple online journaling" width="300px">
-</div>
-
-<div>
-    <h3>Beautifully displayed and neatly organised</h3>
-    <p>Not just wores on a screen - our journals are beautifully displayed.</p>
-    <img src="asserts/img/feature_2.png" alt="beautifully displayed journals" width="300px">
-</div>
-
-<div>
-    <h3>Create and reflect from anywhere in the world</h3>
-    <p>Whether you're at home or exploring the far corners of the world</p>
-    <img src="asserts/img/feature_3.png" alt="create journals anywhere" width="300px">
-</div>
-</section>
-
-  <!-- CTA Section -->
-  <section>
-    <h2>Get Started now</h2>
-    <a href="register.html">Get Started</a>
-  </section>
-</main>
-
-<!-- FOOTER SECTION -->
-<footer>
-    <a href="index.html"><img src="asserts/svg/journal.svg" alt="journal logo" width="50px"></a>
-    <ul>
-      <li><a href="https://www.instagram.com"><img src="asserts/svg/logo-instagram.svg" alt="Instagram logo" width="20px"></a></li>
-      <li><a href="http://www.facebook.com"><img src="asserts/svg/logo-facebook.svg" alt="Facebook logo" width="20px"></a></li>
-      <li><a href="https://www.twitter.com"><img src="asserts/svg/logo-twitter.svg" alt="X logo" width="20px"></a></li>
-      <li><a href="https://www.linkedIn.com"><img src="asserts/svg/logo-linkedin.svg" alt="LinkedIn logo" width="20px"></a></li>
-      <li><a href="https://www.youtube.com"><img src="asserts/svg/logo-youtube.svg" alt="Youtube logo" width="20px"></a></li>
-    </ul>
-
-    <p>Follow us on social media</p>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="login.html">Login</a></li>
-      <li><a href="register.html">Register</a></li>
-    </ul>
-
-    <p>Made with ♥️ in Maputo</p>
-    <p>Copyright © 2025 Fiti's Quill. All rights reserved.</p>
-  </footer>
+      <p>Made with ♥️ in Maputo</p>
+      <p>Copyright © 2025 Fiti's Quill. All rights reserved.</p>
+    </footer>
   </body>
 </html>
