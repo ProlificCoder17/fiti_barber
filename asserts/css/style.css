@@ -40,22 +40,31 @@ Tint: #f1f3f5 (Pebble)
 Shade: #212529 (Graphite)
 */
 
+/* ------------------- GLOBAL STYLES --------------------------  */
 
-h1, h2, h3, h4, h5 {
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
   font-weight: 700;
   line-height: 1.2;
   letter-spacing: -2px;
-  font-family: "Poppins", sans-serif;
   color: #212529;
 }
 
 h1 {
-  text-align: center;
   font-size: 62px;
 }
 
 h2 {
-  text-align: center;
   font-size: 48px;
 }
 
@@ -71,15 +80,8 @@ h5 {
   font-size: 24px;
 }
 
-p, a, small-text {
-  font-weight: 400;
-  line-height: 1.5;
-  font-family: "Poppins", sans-serif;
-  color: #495057;
-}
-
 p {
-  font-size: 20px; 
+  font-size: 20px;
 }
 
 a {
@@ -95,17 +97,58 @@ ul {
   font-size: 12px;
 }
 
+/* ------------------- UI COMPONENTS --------------------------  */
+
 .btn {
   font-weight: 400;
-  font-family: 'Poppins', sans-serif;
   font-size: 16px;
   text-decoration: none;
 }
 
-.btn-primary {
+.btn-primary:link,
+.btn-primary:visited {
   color: #339af0;
 }
 
-.btn-secondary {
+.btn-primary:hover,
+.btn-primary:active {
+  color: #1c7ed6;
+}
+
+.btn-secondary:link,
+.btn-secondary:visited {
   color: #9775fa;
 }
+
+.btn-secondary:hover,
+.btn-secondary:active {
+  color: #7048e8;
+}
+
+/* ------------------- SECTIONS --------------------------  */
+
+/* ------- HERO SECTION -------- */
+
+.hero-section {
+  text-align: center;
+}
+
+/* ------- FEATURES SECTION -------- */
+
+.features-main-heading {
+  text-align: center;
+}
+
+/* ------- CTA SECTION -------- */
+
+.cta-section {
+  text-align: center;
+}
+
+/* ------- FOOTER SECTION -------- */
+
+.footer {
+  text-align: center;
+}
+
+
