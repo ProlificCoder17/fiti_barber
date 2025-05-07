@@ -56,6 +56,11 @@ body {
   color: #495057;
 }
 
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
 h1,
 h2,
 h3,
