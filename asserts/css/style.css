@@ -41,6 +41,10 @@ Shade: #212529 (Graphite)
 White: #ffffff (White)
 Black: #000000 (Black)
 
+======== BORDER RADIUS ========
+
+4px / 8px / 20px
+
 /* ------------------- GLOBAL STYLES --------------------------  */
 
 /* Add in universal selector later to remove default spacing properties */
@@ -202,7 +206,7 @@ border-radius: 4px;
   background-color: #339af0;
   width: 1000px;
   padding: 100px 200px;
-  border-radius: 4px;
+  border-radius: 20px;
 }
 
 /* ------- FOOTER SECTION -------- */
