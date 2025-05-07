@@ -45,9 +45,17 @@ Black: #000000 (Black)
 
 4px / 8px / 20px
 
+======== SPACING SYSTEM ========
+
+5PX / 10PX / 15PX / 20PX / 30PX / 50PX / 100PX
+
 /* ------------------- GLOBAL STYLES --------------------------  */
 
-/* Add in universal selector later to remove default spacing properties */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  }
 
 body {
   font-family: "Poppins", sans-serif;
@@ -57,7 +65,7 @@ body {
 }
 
 .container {
-  width: 1200px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -99,12 +107,16 @@ p {
 a {
   text-decoration: none;
   font-size: 16px;
+  display: block;
 }
 
 ul {
   list-style: none;
 }
 
+span {
+  display: inline-block;
+}
 .small-text {
   font-size: 12px;
 }
@@ -184,32 +196,57 @@ border-radius: 4px;
 }
 /* ------------------- SECTIONS --------------------------  */
 
+/* ------- NAVBAR -------- */
+
+.navbar {
+margin-bottom: 200px;
+}
+
 /* ------- HERO SECTION -------- */
 
 .hero-section {
   text-align: center;
+  margin-bottom: 300px;
+}
+
+.hero-heading {
+  margin-bottom: 10px;
+} 
+
+.hero-paragraph {
+  margin-bottom: 50px;
 }
 
 /* ------- FEATURES SECTION -------- */
 
+.features-section {
+  margin-bottom: 300px;
+}
+
 .features-main-heading {
   text-align: center;
+  margin-bottom: 80px;
+}
+
+.feature-headings {
+  margin-bottom: 20px;
 }
 
 .feature-img {
-  width: 400px;
+  max-width: 400px;
+  width: 100%;
 }
 
 /* ------- CTA SECTION -------- */
 
 .cta-section {
-  text-align: center;
+  margin-bottom: 300px;
 }
 
 .cta-card {
   text-align: center;
   background-color: #339af0;
-  width: 1000px;
+  max-width: 1000px;
   padding: 100px 200px;
   border-radius: 20px;
   margin: 0 auto;
