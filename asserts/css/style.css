@@ -55,7 +55,11 @@ Black: #000000 (Black)
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  }
+}
+
+html {
+  font-size: 62.5%;
+}
 
 body {
   font-family: "Poppins", sans-serif;
@@ -66,6 +70,7 @@ body {
 
 .container {
   max-width: 1200px;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -81,32 +86,32 @@ h5 {
 }
 
 h1 {
-  font-size: 62px;
+  font-size: 6.2rem;
 }
 
 h2 {
-  font-size: 48px;
+  font-size: 4.8rem;
 }
 
 h3 {
-  font-size: 40px;
+  font-size: 4rem;
 }
 
 h4 {
-  font-size: 32px;
+  font-size: 3.2rem;
 }
 
 h5 {
-  font-size: 24px;
+  font-size: 2.4rem;
 }
 
 p {
-  font-size: 20px;
+  font-size: 2rem;
 }
 
 a {
   text-decoration: none;
-  font-size: 16px;
+  font-size: 1.6rem;
   display: inline-block;
 }
 
@@ -119,16 +124,16 @@ span {
 }
 
 .small-text {
-  font-size: 12px;
+  font-size: 1.2rem;
 }
 
 /* ------------------- UI COMPONENTS --------------------------  */
 
 .btn {
-  font-size: 16px;
+  font-size: 1.6rem;
   text-decoration: none;
-  padding: 15px 30px;
-  border-radius: 10px;
+  padding: 1.5rem 3rem;
+  border-radius: 8px;
 }
 
 .btn-primary:link,
@@ -145,13 +150,15 @@ span {
   border: 2px solid #1c7ed6;
 }
 
-.btn-primary-outline:link, .btn-primary-outline:visited {
+.btn-primary-outline:link,
+.btn-primary-outline:visited {
   color: #339af0;
   background-color: #ffffff;
   border: 2px solid #339af0;
 }
 
-.btn-primary-outline:hover, .btn-primary-outline:active {
+.btn-primary-outline:hover,
+.btn-primary-outline:active {
   color: #1c7ed6;
   background-color: #ffffff;
   border: 2px solid #1c7ed6;
@@ -172,20 +179,20 @@ span {
 }
 
 .highlight {
-color: #ffffff;
-padding: 5px 10px;
-border-radius: 4px;
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
 }
 
 .highlight-primary {
- background-color: #339af0;
+  background-color: #339af0;
 }
 
 .highlight-secondary {
- background-color: #9775fa;
+  background-color: #9775fa;
 }
 .highlight-tertiary {
- background-color: #ff922b;
+  background-color: #ff922b;
 }
 
 .logo-md {
@@ -200,37 +207,37 @@ border-radius: 4px;
 /* ------- NAVBAR -------- */
 
 .navbar {
-margin-bottom: 200px;
+  margin-bottom: 20rem;
 }
 
 /* ------- HERO SECTION -------- */
 
 .hero-section {
   text-align: center;
-  margin-bottom: 300px;
+  margin-bottom: 30rem;
 }
 
 .hero-heading {
-  margin-bottom: 10px;
-} 
+  margin-bottom: 1rem;
+}
 
 .hero-paragraph {
-  margin-bottom: 50px;
+  margin-bottom: 5rem;
 }
 
 /* ------- FEATURES SECTION -------- */
 
 .features-section {
-  margin-bottom: 300px;
+  margin-bottom: 30rem;
 }
 
 .features-main-heading {
   text-align: center;
-  margin-bottom: 80px;
+  margin-bottom: 8rem;
 }
 
 .feature-headings {
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
 }
 
 .feature-img {
@@ -241,20 +248,20 @@ margin-bottom: 200px;
 /* ------- CTA SECTION -------- */
 
 .cta-section {
-  margin-bottom: 300px;
+  margin-bottom: 30rem;
 }
 
 .cta-card {
   text-align: center;
   background-color: #339af0;
   max-width: 1000px;
-  padding: 100px 200px;
+  padding: 10rem 20rem;
   border-radius: 20px;
   margin: 0 auto;
 }
 
 .cta-heading {
-  margin-bottom: 30px;
+  margin-bottom: 3rem;
 }
 
 /* ------- FOOTER SECTION -------- */
