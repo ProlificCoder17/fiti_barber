@@ -107,7 +107,7 @@ p {
 a {
   text-decoration: none;
   font-size: 16px;
-  display: block;
+  display: inline-block;
 }
 
 ul {
@@ -117,6 +117,7 @@ ul {
 span {
   display: inline-block;
 }
+
 .small-text {
   font-size: 12px;
 }
@@ -250,6 +251,10 @@ margin-bottom: 200px;
   padding: 100px 200px;
   border-radius: 20px;
   margin: 0 auto;
+}
+
+.cta-heading {
+  margin-bottom: 30px;
 }
 
 /* ------- FOOTER SECTION -------- */
