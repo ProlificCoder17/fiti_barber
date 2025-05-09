@@ -260,7 +260,9 @@ span {
 
 .navbar {
   height: var(--nav-height);
-  background-color: lightblue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 /* ------- HERO SECTION -------- */
@@ -270,7 +272,6 @@ span {
   min-height: 400px;
   text-align: center;
   margin-bottom: 10rem;
-  background-color: lightcoral;
 }
 
 .hero-heading {
@@ -323,7 +324,9 @@ span {
 /* ------- FOOTER SECTION -------- */
 
 .footer {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .social-icons {
