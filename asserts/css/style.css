@@ -52,7 +52,7 @@ Black: #000000 (Black)
 /* ------------------- GLOBAL STYLES --------------------------  */
 
 :root {
- /* FONT SIZE */ 
+  /* FONT SIZE */
   --text-sm: 1.2rem;
   --text-base: 1.6rem;
   --text-paragraph: 2rem;
@@ -65,7 +65,7 @@ Black: #000000 (Black)
   /* FONT WEIGHT */
   --font-weight-normal: 400;
   --font-weight-bold: 700;
-  
+
   /* LINE HEIGHT */
   --line-height-normal: 1.2;
   --line-height-paragraph: 1.5;
@@ -75,7 +75,7 @@ Black: #000000 (Black)
 
   /* FONT FAMILY */
   --font-family: "Poppins", sans-serif;
-  
+
   /* COLORS */
   --color-primary-base: #339af0;
   --color-primary-tint: #d0ebff;
@@ -97,6 +97,10 @@ Black: #000000 (Black)
   --border-radius-sm: 4px;
   --border-radius-md: 8px;
   --border-radius-lg: 20px;
+
+  /* MISCELLANEOUS */
+  --nav-height: 300px;
+
 }
 
 * {
@@ -252,24 +256,21 @@ span {
 }
 /* ------------------- SECTIONS --------------------------  */
 
-/* ------- HEADER -------- */
-
-.header {
-  height: 100vh;
-  min-height: 800px;
-}
-
 /* ------- NAVBAR -------- */
 
 .navbar {
-  margin-bottom: 20rem;
+  height: var(--nav-height);
+  background-color: lightblue;
 }
 
 /* ------- HERO SECTION -------- */
 
 .hero-section {
+  height: calc(100vh - var(--nav-height));
+  min-height: 400px;
   text-align: center;
-  margin-bottom: 30rem;
+  margin-bottom: 10rem;
+  background-color: lightcoral;
 }
 
 .hero-heading {
